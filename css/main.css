@@ -1,0 +1,40 @@
+html {
+    background: url(../img/header.png) no-repeat;
+
+}
+
+header {
+    background: rgba(0, 0, 0, 0.15);
+}
+
+.nav-tabs {
+    border: 0;
+}
+
+.navbar-brand {
+    color: #fff;
+    font-size: 28px;
+}
+
+ul li a {
+    font-size: 14px;
+    color: #fff;
+}
+
+.nav-link.active {
+    color: rgb(158, 158, 158) !important;
+    background: none !important;
+}
+
+.more {
+    font-size: 60px;
+    color: #fff;
+    margin-left: 100px;
+    margin-top: 130px;
+}
+
+.student {
+    color: #fff;
+    margin-left: 100px;
+    font-size: 24px;
+}
