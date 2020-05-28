@@ -1,40 +1,72 @@
-html {
-    background: url(../img/header.png) no-repeat;
-
+.header {
+    background: url(../img/header.png) no-repeat top fixed;
+    padding-bottom: 150px;
 }
 
-header {
-    background: rgba(0, 0, 0, 0.15);
+.see {
+    margin: 100px 0 0 100px;
+    color: #fff;
 }
 
 .nav-tabs {
     border: 0;
 }
 
-.navbar-brand {
+.nav-tabs .nav-link.active {
+    background: none;
+    border: 0;
+    color: #848484;
+}
+
+a {
     color: #fff;
+}
+
+.main {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    background-color: #465D62;
+}
+
+.card {
+    border-radius: 20px 20px 20px 20px;
+    /* position: relative; */
+    height: 380px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+
+
+.card-header{
+    border-radius: 20px 20px 0 0;
     font-size: 28px;
+    background-color: #00000041;
 }
 
-ul li a {
-    font-size: 14px;
+/* .btn.btn-primary{
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+
+} */
+
+div.card.fisic {
+
+    background: url(../img/физическое\ положение.jpg) no-repeat;
+}
+
+
+div.card.social {
+
+    background-image: url(../img/социал.jpg);
+    background-color: rgb(0, 0, 0, 0.3);
+}
+
+.footer {
     color: #fff;
-}
-
-.nav-link.active {
-    color: rgb(158, 158, 158) !important;
-    background: none !important;
-}
-
-.more {
-    font-size: 60px;
-    color: #fff;
-    margin-left: 100px;
-    margin-top: 130px;
-}
-
-.student {
-    color: #fff;
-    margin-left: 100px;
-    font-size: 24px;
+    bottom: 0;
+    width: 100%;
+    line-height: 60px;
+    background-color: #383838;
 }
